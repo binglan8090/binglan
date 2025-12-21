@@ -1,0 +1,14 @@
+Package: com.binglan.wechat-fst
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: binglan
+Depends: firmware (>= 15.0), mobilesubstrate | ellekit
+Filename: debs/微信防闪退补丁.deb
+Size: 5436
+MD5sum: f3a0469237da50ff9a58e8a3a8097ee2
+SHA1: c1aad8fd7020dbc5cf8f7ba3849e17bcbe9f75e9
+SHA256: daa7112dc68c3d221849631ef78c581a0af91e9809e480a561e82ffc6200bca8
+Section: Tweaks
+Description: 神秘功能。
+Name: 微信防闪退补丁
+
