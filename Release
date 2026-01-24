@@ -1,17 +1,8 @@
-Date: Sun, 21 Dec 2025 23:30:23 +0000
-MD5Sum:
- fe141201eaf69c5db2e56abe9a241414              438 Packages
- d720dab278c3488277e20695a21dc034              378 Packages.gz
- 84d3a6940cbed1336217c8fc9afb2b15               38 Release
-SHA1:
- 548cf0b0250d24d397b158e10a62f63f4a610648              438 Packages
- 4eaae9578d1b51ab1882881b817d114af4dea3f4              378 Packages.gz
- 0e101a54febe6eb3632fed4d40e4f960d4d9c20d               38 Release
-SHA256:
- eed3123752cbfccd2a8724b5a15150009f0e8f379282755519279d99d3f25ed0              438 Packages
- 6522870dc9e17ff1ed63e9f46631d37038d3478f4f9c8dda38a3898cc98413ff              378 Packages.gz
- 8ec095842f481ffc6b2674d61e27eb10e87159b3dbdd5b0bcab7188e6ca9e1af               38 Release
-SHA512:
- 5c85680e59490285bbfd66a9d35576176fcdbb20db6c9d36a1db17c75e8bb25634e7037cf6870992a8a4cd48bfc60436dc8f13ded8632f829130806b1a666aae              438 Packages
- 42038c5a9d31fcfa308484954536593a10668dcace0dc48917029e371d00aeb25ff9703b3307356e1c14f1df78983593cd5944c1947818825f00cfc2f3578cf9              378 Packages.gz
- ae3467ef20dbf4df38fe8ae17b3b7662ea51d574684e078b846272106711cb2a3c6a49ff7b51ab60d6bd7e57df05ae53e1577332917034d6f3f32f89c812aeef               38 Release
+Origin: BingLan Repo
+Label: BingLan Repo
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm64 iphoneos-arm
+Components: main
+Description: BingLan Sileo Repository
