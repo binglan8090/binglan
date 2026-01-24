@@ -2,7 +2,11 @@ name: Build APT Repo
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
+    paths-ignore:
+      - "Packages"
+      - "Packages.gz"
+      - "Release"
   workflow_dispatch:
 
 permissions:
@@ -24,9 +28,24 @@ jobs:
           dpkg-scanpackages -m debs /dev/null > Packages
           gzip -kf Packages
 
-      - name: Generate Release
+      - name: Generate Release (Sileo compatible)
         run: |
-          apt-ftparchive release . > Release
+          apt-ftparchive release . > Release.checksums
+
+          cat > Release << 'EOF'
+Origin: BingLan Repo
+Label: BingLan Repo
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm64
+Components: main
+Description: BingLan Sileo Repository
+EOF
+
+          # 把校验值追加到 Release 后面（可有可无，但加上更标准）
+          cat Release.checksums >> Release
+          rm -f Release.checksums
 
       - name: Commit repo files
         run: |
