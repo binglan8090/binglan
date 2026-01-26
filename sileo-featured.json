@@ -4,7 +4,7 @@
   "itemCornerRadius": 10,
   "banners": [
     {
-      "url": "https://binglan8090.github.io/binglan/assets/banner.jpg",
+      "url": "https://binglan8090.github.io/binglan/assets/banner.png",
       "title": "BingLan Repo",
       "package": "com.binglan.8090"
     }
