@@ -37,40 +37,38 @@
       box-shadow: 0 20px 70px rgba(0,0,0,.35);
       backdrop-filter: blur(10px);
     }
-    .banner{
-      width:100%;
-      aspect-ratio: 16/6;
-      background:#111827;
-      position:relative;
-      overflow:hidden;
-    }
-    .banner img{
-      width:100%;
-      height:100%;
-      object-fit:cover;
-      display:block;
-      filter:saturate(1.05) contrast(1.05);
-    }
+
+    /* 顶部区域：头像 + 标题 + 副标题（全部居中） */
     .head{
+      padding:22px 18px 16px 18px;
       display:flex;
-      gap:16px;
-      padding:18px 18px 14px 18px;
+      flex-direction:column;
       align-items:center;
+      gap:10px;
       border-bottom:1px solid var(--line);
+      text-align:center;
     }
     .icon{
-      width:56px;height:56px;border-radius:14px;
+      width:86px;
+      height:86px;
+      border-radius:22px;
       background:rgba(255,255,255,.06);
       border:1px solid var(--line);
       overflow:hidden;
       flex:0 0 auto;
+      box-shadow: 0 10px 30px rgba(0,0,0,.25);
     }
-    .icon img{width:100%;height:100%;object-fit:cover;display:block}
-    .title{ display:flex; flex-direction:column; gap:4px; min-width:0; }
+    .icon img{
+      width:100%;
+      height:100%;
+      object-fit:cover;
+      display:block
+    }
     .title h1{
-      font-size:18px;margin:0;line-height:1.15;
-      letter-spacing:.2px;
-      white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+      font-size:20px;
+      margin:0;
+      line-height:1.15;
+      letter-spacing:.3px;
     }
     .title p{
       margin:0;
@@ -78,14 +76,15 @@
       font-size:13px;
       line-height:1.35;
     }
+
     .body{
-      padding:16px 18px 18px 18px;
+      padding:18px 18px 18px 18px;
       display:grid;
       grid-template-columns: 1fr;
       gap:14px;
     }
 
-    /* 只保留一个按钮，并居中 */
+    /* 按钮居中 */
     .btns{
       display:flex;
       justify-content:center;
@@ -96,7 +95,7 @@
       align-items:center;
       justify-content:center;
       gap:8px;
-      padding:12px 16px;
+      padding:12px 18px;
       border-radius:12px;
       text-decoration:none;
       color:var(--text);
@@ -105,7 +104,7 @@
       transition:.15s transform ease, .15s background ease, .15s border ease;
       font-weight:600;
       font-size:14px;
-      min-width: 220px;
+      min-width: 240px;
     }
     .btn:hover{
       transform:translateY(-1px);
@@ -125,6 +124,7 @@
       font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;
       font-size: 12px;
       color: #dbeafe;
+      word-break: break-all;
     }
     .info{
       border:1px solid var(--line);
@@ -135,15 +135,15 @@
       font-size:13px;
       line-height:1.55;
     }
+    .small{
+      font-size:12px;
+      color:rgba(159,176,204,.85);
+    }
     .footer{
       padding:12px 18px 16px 18px;
       color:rgba(159,176,204,.65);
       font-size:12px;
       text-align:center;
-    }
-    .small{
-      font-size:12px;
-      color:rgba(159,176,204,.85);
     }
   </style>
 </head>
@@ -152,10 +152,7 @@
   <div class="wrap">
     <div class="card">
 
-      <div class="banner">
-        <img src="assets/banner.jpg" alt="banner">
-      </div>
-
+      <!-- 头像 + 标题 + 副标题 -->
       <div class="head">
         <div class="icon">
           <img src="CydiaIcon.png" alt="icon">
