@@ -27,6 +27,23 @@ Description: 将控制中心主副卡显示为自己喜欢的图片 可自定义
 Author: liuf <1602389262>
 Name: Liuf's 主副卡
 
+Package: com.zqbb.iconshadow
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: zqbb
+Installed-Size: 96
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/HelloShadow.1.1.deb
+Size: 9468
+MD5sum: 84b75ebb7edcb7a93e983ebdf99c00a0
+SHA1: 701fc4ee572891de8915d37b12d7377a446a9c4c
+SHA256: 80747b738f077a213b4b972d8f1462ae3a2ed676a4041608b9b2793d02910f1f
+Section: Tweaks
+Description: 给图标添加一层阴影图片!
+Author: zqbb
+Name: Hello Shadow
+Sileodepiction: https://rootless.002599.xyz/web/com.zqbb.iconshadow
+
 Package: xyz.cypwn.picturemodule
 Version: 1.2k
 Architecture: iphoneos-arm64
