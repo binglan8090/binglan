@@ -11,6 +11,22 @@ Section: Repositories
 Description: This is a repo info package used for the banner. Do not install.
 Name: BingLan Repo
 
+Package: com.liuf.zfk
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: liuf <1602389262>
+Installed-Size: 364
+Depends: mobilesubstrate
+Filename: debs/Liuf's主副卡.1.0.0.deb
+Size: 15484
+MD5sum: 60613110f236da300ae0ab96e66682a3
+SHA1: e5847c1617eb08f7a7d34b8af8c1f9f2ce7d8fe8
+SHA256: 1cc44252a9b89f601e23aa9a0ca30371dc97ba3077a0fbc6950768c7ac4c15b8
+Section: Tweaks
+Description: 将控制中心主副卡显示为自己喜欢的图片 可自定义 有设置项可自定义高低上下!
+Author: liuf <1602389262>
+Name: Liuf's 主副卡
+
 Package: xyz.cypwn.picturemodule
 Version: 1.2k
 Architecture: iphoneos-arm64
