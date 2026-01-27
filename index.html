@@ -3,7 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="theme-color" content="#0ea5e9" />
+  <!-- 去掉顶部/底部亮蓝：把 theme-color 改成页面深色底 -->
+  <meta name="theme-color" content="#0b1220" />
   <title>BingLan-Repo</title>
   <style>
     :root{
@@ -18,7 +19,8 @@
     body{
       margin:0;
       font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
-      background: radial-gradient(800px 500px at 20% 0%, rgba(34,193,255,.20), transparent 55%),
+      /* 去掉页面顶部/底部亮蓝底光：删除蓝色径向渐变，仅保留暗色背景(和你原来的绿色淡光) */
+      background:
                   radial-gradient(900px 600px at 80% 20%, rgba(34,197,94,.14), transparent 60%),
                   var(--bg);
       color:var(--text);
