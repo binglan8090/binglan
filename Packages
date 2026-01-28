@@ -620,6 +620,23 @@ Icon: https://s1.imagehub.cc/images/2025/02/27/f9eb963b7be6a61103d287689931b7d7.
 Name: Snapper3美化
 Sileodepiction: https://raw.githubusercontent.com/Wkkyy00/SileoDepiction/refs/heads/main/snapper3.json
 
+Package: com.wkk.tweaktool
+Version: 2.0.0-beta
+Architecture: iphoneos-arm64
+Maintainer: 预言小猫
+Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
+Filename: debs/一键备份和恢复工具.2.0.0-beta.deb
+Size: 10448
+MD5sum: dec78f5fd8ec9e9546e613f861b57fef
+SHA1: eed67b15680a71c44087608cfb7c5896016522ad
+SHA256: e87278c7763f49a4c22f13f3dcc896d7a26c3c09ed49316a4f83640c286969fa
+Section: 配置
+Priority: 0
+Description: 使用方法：Filza进入/var/mobile/Documents/tweak_tool/目录，运行“一键备份和恢复工具.sh”文件。
+Author: 预言小猫
+Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.jpeg
+Name: 一键备份和恢复工具
+
 Package: com.zqbb.iconshadow
 Version: 1.1
 Architecture: iphoneos-arm64
