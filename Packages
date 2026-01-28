@@ -8,7 +8,8 @@ Size: 708244
 MD5sum: e23662b8cfb186336b6a311c35353f05
 SHA1: 7af5ea733aef31b10762ffcf431cd82cb0d2dc70
 SHA256: bfa85323c98d1401b11b95c7720b7f8d976df9d17737ca89d510c45f3d5b48a1
-Section: 你的iPhone不止于此
+Section: 插件
+Priority: 0
 Description: 显示录屏轨迹，并附带拖尾效果
 Author: 来一杯82年的拉菲
 Icon: https://repo.cypwn.xyz/packages/TouchViz-Rootless/icon.png
@@ -25,7 +26,8 @@ Size: 13108
 MD5sum: a693c847b4ec74ab617e43199c54da82
 SHA1: dde7643325f33ae167b9fe07b68b106c9297afb9
 SHA256: 4391896959d19a5b13660a1b4e4b35fdc29089adb1bcb3bbb278b4d6e48f41bb
-Section: 杂七杂八
+Section: 插件
+Priority: 0
 Description: 去除app抓包检测,安装之后在设置里面开启,有问题可以进群反馈！
 Author: zxc
 Icon: https://chinesebuilding.club/pic/cydia.png
@@ -42,7 +44,8 @@ Size: 1188
 MD5sum: 3d1b32b6003827b0fa5bcfa19f55698b
 SHA1: c28483fe7947df776a578a2b969636f1718f4c85
 SHA256: 7b72268174320ba37e9dba038ce6b43d98962791b4c2275851e9713dd0e61a03
-Section: 系统增强
+Section: 插件
+Priority: 0
 Description: 激活原生 iPhone 控制中心静音模块！
 Author: zhaonan
 Icon: https://chinesebuilding.club/pic/cydia.png
@@ -61,7 +64,8 @@ Size: 983832
 MD5sum: 6a23ed34c3c4190ac2fbaf3f4611fb63
 SHA1: 8a5ae6b6cbece091ff0b2f290015495f31df41d4
 SHA256: d66ac439188160bd7143bfb1fe45ea06c217396a778ae57def490380cc0d6ae4
-Section: 系统增强
+Section: 插件
+Priority: 0
 Description: The first real iOS system cleanup and management utility iOS最强的垃圾清理工具，此为官方破解版，全功能破解！有经济能力的，请支持一下大神！有问题群里反馈！
 Author: Ivano Bilenchi
 Icon: https://chinesebuilding.club/pic/cydia.png
@@ -79,7 +83,8 @@ Size: 42856
 MD5sum: a4cb54d2c38ecf49de31d0db4d0c90b7
 SHA1: e6324147133e176e36b37abb01c142a19373bf22
 SHA256: fc7a6f92dc4b27d0d663fc7b3d24c1cf0741c3007aac6e0142067bc76bf52594
-Section: Tweaks
+Section: 插件
+Priority: 0
 Description: Lower your Dynamic Island and make it disappear if you don't need it. All the original code is from KhanhDuyTran (@TranKha50277352)
 Author: 34306, KhanhDuyTran
 Name: mineland
@@ -96,7 +101,8 @@ Size: 24812
 MD5sum: f9b1a960b6aa41dd7e82e5e3eb713973
 SHA1: 62b61ba21b2b68fcd3240d590b3e71c52f255527
 SHA256: 878c1c7eec5e29171ac352b930a2e0e72825dd5c4b792db9a6ff3b45e067854e
-Section: 乌龙工作室
+Section: 插件
+Priority: 0
 Description: 状态栏左上角显示静音图标
 Author: 82Flex
 Icon: https://TrollStoreX.Github.io/sileodepiction/SingleMute/icon.png
@@ -131,7 +137,8 @@ Size: 517364
 MD5sum: f1a094babaa8d3b78531df6b3e68a422
 SHA1: 1020ae74e9c913aed866c79aa76b3a9c912a02dd
 SHA256: 5599bd94b6fd1ea93df853821fe01abf343cd8e401aaec38832e6cb4723291a8
-Section: 嗨-工具
+Section: 插件
+Priority: 0
 Description: 超级控制中心模块集合！
 Author: 妖刀
 Name: CCLess++(rootless)
@@ -166,7 +173,8 @@ Size: 149776
 MD5sum: 02253203270230054ef6aa5fb89c6dec
 SHA1: 23c8de3b5bee656ddf286126f11fe4f1f46aa90b
 SHA256: 9624f151f4cea9ba28b9cc38ded63cd65c18f1e7ce42994c28769b2b06d30936
-Section: Tweaks
+Section: 插件
+Priority: 0
 Description: Customize your Control Center!
 Author: Miguelaka95 <miguelaka95@gmail.com>
 Icon: https://invalidunit.github.io/sileodepiction/com.nan.bettercc/image.png
@@ -185,7 +193,8 @@ Size: 214836
 MD5sum: 53186b66faad761409d987ec1da514f6
 SHA1: ca35a79471b21e08d1704bba236eb9af2bc538e8
 SHA256: 7af2067a5286fc1ed411580d9b6bba46accaa239aeb64fdc7b38351e511a5596
-Section: Utilities
+Section: 插件
+Priority: 0
 Description: 进程查看器
 Author: Domo <domo@rambler.ru>
 Icon: https://invalidunit.github.io/sileodepiction/com.nan.cocoatop64/image.png
@@ -203,7 +212,8 @@ Size: 474520
 MD5sum: a828736034bac23f86645110978f292e
 SHA1: b6774cbf5e3cc9a586d756b3b989a94e12659ac0
 SHA256: c5cefe66212a52d31f4b8d6e225ee2f799b83e782b7b07b5af0173447b40ec92
-Section: Tweaks
+Section: 插件
+Priority: 0
 Description: 全局系统颜色自定义
 Author: MoreColor
 Depiction: http://test.test.com/depictions/?p=com.niceios.morecolor
@@ -221,7 +231,8 @@ Size: 548920
 MD5sum: ae9f69b1dc5fb27e85d6201ab14e88d4
 SHA1: 48f79375a34ddc5aee2a4bc9e539df9e4394f207
 SHA256: ee7d7307555a9304b8d3c938011f69445e7b4471741ab078bf6deffabecea08c
-Section: Tweaks
+Section: 插件
+Priority: 0
 Description: 全局系统颜色自定义
 Author: MrShi
 Depiction: http://test.test.com/depictions/?p=com.niceios.morecolor
@@ -241,6 +252,7 @@ MD5sum: 8e81171d745abcccb43d9b6c6e0ebdc7
 SHA1: 9a5448763e0a1274a8210ef2bfeb57408f11c6a3
 SHA256: e4626b3d7559cc26f18babf291a36fb82ee50a6fe144dd036cb69baf226600ee
 Section: 插件
+Priority: 0
 Description: 如题。
 Author: Nightwind
 Icon: https://sini921.github.io/repo/sileodepiction/icon/onesett.png
@@ -261,7 +273,8 @@ Size: 58808
 MD5sum: 6dac6425a24c42614b071067b5e791c5
 SHA1: 24a6ccd9b83b429929aa4cb0bf22068de5c0e64a
 SHA256: bfacd061919186dfe65b1b67757add61e55afb265b1cf5de089953f6e6abb470
-Section: Tweaks
+Section: 插件
+Priority: 0
 Description: Support tweak for CC modules!
 Author: opa334
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
@@ -279,7 +292,8 @@ Size: 160232
 MD5sum: 80a630200080c94e17b6ce84afa3f5be
 SHA1: 565a7991c069d98fc41c2ea83ea0ad7853586472
 SHA256: 91432766d588a6d43c93946985f9434afd6d9c9608c92be8a4b7c1a52c30f440
-Section: opa334
+Section: 插件
+Priority: 0
 Description: 一个高级的插件配置工具
 Author: opa334
 Icon: https://TrollStoreX.Github.io/sileodepiction/Choicy/icon.png
@@ -297,7 +311,8 @@ Size: 35188
 MD5sum: a8c9636cab4230a6ae0379f66080c01c
 SHA1: 1ac22b392fb852df570e6bc4019e318697dd8a82
 SHA256: 8cbb914aacab8fbcc365186bd26a3404f8fc95e04c2dc8b5f039f339301b47da
-Section: Tweaks
+Section: 插件
+Priority: 0
 Description: 为控制中心的音乐模块添加动画
 Author: simon
 Name: 控制中心音乐模块动画
@@ -313,7 +328,8 @@ Size: 36268
 MD5sum: 90fd7a6e157ccd924d72ecdc28e95292
 SHA1: 83f9851c6c516e450075ff77f7fef28fc980a666
 SHA256: 562c1e53f9895afa0f0a80aab971e9a564b725d553e9f707be4c41e3c79335cc
-Section: Tweaks
+Section: 插件
+Priority: 0
 Description: 用于灵动岛专辑及屏幕录制动态动画整合 无需挂载不再卑微！
 Author: Simon
 Name: 灵动岛原生动画PLUS
@@ -329,7 +345,8 @@ Size: 98320
 MD5sum: b758cef6502eee7cca819b2a7e3355f8
 SHA1: de0ff79e0a6e2adb814500ba7d43093972be4c85
 SHA256: 40d01d6147dac733e047f5792d807d02efa121024725101bc01bb3c37996d164
-Section: 越狱插件
+Section: 插件
+Priority: 0
 Description: 文件夹简单优化
 Author: SINI
 Icon: https://sini921.github.io/repo/sileodepiction/icon/folderpro.png
@@ -458,7 +475,8 @@ Size: 18364
 MD5sum: 81f22d274ba5a4ee44ef431ee978b23d
 SHA1: 6615b3b2210c733750314f0d121c22aa62758ac1
 SHA256: 0f20889dad589a9da5ee237108991ff3088c36b0404e9cee7a4efe365e96a647
-Section: Tiao-Cracks
+Section: 插件
+Priority: 0
 Description: LinearityCurveCrack
 Author: Tiao
 Name: LinearityCurve Crack
@@ -474,7 +492,8 @@ Size: 106688
 MD5sum: 4531840f7f036bb70195f18726ebcf53
 SHA1: 4f6099ab1ad474c9ee2f28e317b42cbb67bf696f
 SHA256: 1577e00b054248e95b176eb35cee741e4f9da6acfd0fcf9f865608b36058d5d6
-Section: Tweaks
+Section: 插件
+Priority: 0
 Description: WXKeyboardUIHook
 Author: TiaoTiao
 Name: WXKeyboardUIHook
@@ -490,7 +509,8 @@ Size: 671008
 MD5sum: 3d57fa9ab6d6a495b91385a19a1121b3
 SHA1: 81a32d77de16db6dd36e4ddaf2d6112f27cd5668
 SHA256: ce9eae40ec86093739ff58c2b7a1ebe6b649db2a09d42c2b5fd32390287b310e
-Section: Tweaks
+Section: 插件
+Priority: 0
 Description: Flex 用于 iOS 开发调试工具
 Author: Mr.Zhang <mr_zhang_00@163.com>
 Icon: https://s1.imagehub.cc/images/2025/12/31/dc50cf5977b8b5502232a056025273e3.png
@@ -507,7 +527,8 @@ Size: 3176
 MD5sum: 46d1012776074aa45e546fc1b4b82ee4
 SHA1: 2b887f861a3da89c13255e100927285f309820a8
 SHA256: 221685ff5464aa75b81f90c2ebfdade618fc62112f797c842efc3c610ddbbde1
-Section: Tweaks
+Section: 插件
+Priority: 0
 Description: 隐藏锁屏音乐控件。z神的插件已经失效，亲手做了个。支持ios16不支持ios15，有问题请反馈给我。
 Author: wkk
 Icon: https://s1.imagehub.cc/images/2025/03/26/e30c13abda043be281eed1b5e690023c.png
@@ -523,7 +544,8 @@ Size: 1692
 MD5sum: 1af61f26509265fa2c7ff7685c30e1ab
 SHA1: 61eef8412fdd6455bbbe3f3bb14e0d2930b23c3b
 SHA256: be6115fd21f598f9d23d6bbd399b0211c2f26ab91acc1149a4b6be6bc5f43145
-Section: 插件配置
+Section: 插件
+Priority: 0
 Description: 下载后文件在目录/var/mobile/Documents/气泡制作.sh
 Author: wkk
 Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.jpeg
@@ -539,7 +561,8 @@ Size: 928
 MD5sum: ff38b66ac2891eb2b539ab3afc00634a
 SHA1: d129e17c2e43cbd475bd2115fa8861fbd414c76a
 SHA256: 0d33e4aafc20aabfd2c320ad02b7b596a2c244fdd825e72c4be35033e2c0dd68
-Section: 插件配置
+Section: 插件
+Priority: 0
 Description: 下载后文件在目录/var/mobile/Documents/iPhoneOS16.5.sdk.tar
 Author: wkk
 Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.jpeg
@@ -556,7 +579,8 @@ Size: 21740
 MD5sum: 5bc7f8066fa37d0869e6e8bec0dc947e
 SHA1: c5839bfc58d21443699288b1c72815716113faed
 SHA256: a049be7b23ada876685955609a1283ace11d3523c18e6c284030b30cda6f1349
-Section: 美化
+Section: 插件
+Priority: 0
 Description: 纯文字美化。
 Author: wkk
 Icon: https://s1.imagehub.cc/images/2025/02/27/f9eb963b7be6a61103d287689931b7d7.png
@@ -596,6 +620,7 @@ MD5sum: e042a3058d4276c2ae1847394ba21958
 SHA1: b6ffee2f872acb32affae97b8c7a1ceeef9bf971
 SHA256: 104a10c030dcabdf1368e3f37e7660efefa87962b7062f5c1aea6719f19ed6ac
 Section: 插件
+Priority: 0
 Description: Powerful terminal app for iOS
 Tag: compatible_min::ios14.0
 Author: HASHBANG Productions <support@hbang.ws>
