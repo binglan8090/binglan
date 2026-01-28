@@ -316,6 +316,23 @@ Icon: https://TrollStoreX.Github.io/sileodepiction/Choicy/icon.png
 Name: Choicy 禁止注入
 Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/Choicy/js.json
 
+Package: com.simon.ccglow
+Version: 2.0.3
+Architecture: iphoneos-arm64
+Maintainer: Simon
+Installed-Size: 384
+Depends: mobilesubstrate
+Filename: debs/控制中心发光.deb
+Size: 24102
+MD5sum: ca0f3464b198d2d0daf7969d988b6633
+SHA1: 0fb875518d06f0117cae89fb7ea28be24265511c
+SHA256: cf903c342bd4978d15cf7c22dc9f58d8fbda162c0f065abe05dd2bb6b67ae4fa
+Section: 系统美化
+Priority: 0
+Description: 控制中心发光
+Author: Simon
+Name: 控制中心发光
+
 Package: com.simon.ccmusic
 Version: 1.0.2
 Architecture: iphoneos-arm64
@@ -332,6 +349,23 @@ Priority: 0
 Description: 为控制中心的音乐模块添加动画
 Author: simon
 Name: 控制中心音乐模块动画
+
+Package: com.simon.ccweathermodule
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: simon
+Installed-Size: 380
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: debs/控制中心天气.deb
+Size: 88046
+MD5sum: ccb8784555ec858e62ded0c7ede8e4c3
+SHA1: 138c0c8439a10d605079b96a95ac800ae79ddb2c
+SHA256: bbddeede3fb95eb69db9d851761521b3e862cb15d71c749ee2d5726f792c37aa
+Section: 插件
+Priority: 0
+Description: 控制中心的天气模块。 显示当前天气、温度和每小时预报。
+Author: simon
+Name: CCWeather Module
 
 Package: com.simon.dynamicislandanimation
 Version: 1.1.7
