@@ -176,6 +176,38 @@ Author: 妖刀
 Name: CCLess++(rootless)
 Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/ccless/js.json
 
+Package: com.huami.WCPulse
+Version: 1.4-3
+Architecture: iphoneos-arm64
+Maintainer: huami
+Installed-Size: 2224
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: /var/mobile/binglan/debs/com.huami.wcpulse_1.4-3_iphoneos-arm64.deb
+Size: 492518
+MD5sum: 752bb23d13adfa953968596f789200fa
+SHA1: b52092a4dba7a1aa28e53892faf4633c4dc03b10
+SHA256: d6602b62197246ddd5e449b5599f43121f5d9ff8a96d6cf378f3273b642a415c
+Section: Tweaks
+Description: WCPulse
+Author: huami
+Name: WCPulse
+
+Package: com.huami.WCPulse
+Version: 1.4-3
+Architecture: iphoneos-arm64e
+Maintainer: huami
+Installed-Size: 2224
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: /var/mobile/binglan/debs/com.huami.wcpulse_1.4-3_iphoneos-arm64e.deb
+Size: 493240
+MD5sum: d8ced85ff7845d336af5923165caf41b
+SHA1: c89c675d49dd96655166a9745fd09fc867b2b040
+SHA256: a708de31fa74fa0cd6b3238faeff81593ccaed4a0ca573f2afec930c2435e43c
+Section: Tweaks
+Description: WCPulse
+Author: huami
+Name: WCPulse
+
 Package: com.liuf.zfk
 Version: 1.0.0
 Architecture: iphoneos-arm64
