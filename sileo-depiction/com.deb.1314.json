@@ -43,24 +43,19 @@
         },
         {
           "class": "DepictionHeaderView",
-          "title": "支持与联系"
-        },
-        {
-          "class": "DepictionTableButtonView",
-          "title": "微信 (WeChat)",
-          "text": "binglangmail",
-          "action": "weixin://"
+          "title": "⚠️ 重要提示"
         },
         {
           "class": "DepictionLabelView",
-          "text": "长按上方微信号即可复制",
-          "textColor": "#999999",
-          "fontSize": 13,
+          "text": "请勿下载，此页面仅供展示。",
+          "textColor": "#FF3B30",
+          "fontWeight": "bold",
+          "fontSize": 15,
           "alignment": 1
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 16
+          "spacing": 20
         }
       ]
     }
