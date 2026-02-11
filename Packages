@@ -445,7 +445,24 @@ Size: 36268
 MD5sum: 90fd7a6e157ccd924d72ecdc28e95292
 SHA1: 83f9851c6c516e450075ff77f7fef28fc980a666
 SHA256: 562c1e53f9895afa0f0a80aab971e9a564b725d553e9f707be4c41e3c79335cc
-Section: 插件
+Section: 系统美化
+Priority: 0
+Description: 用于灵动岛专辑及屏幕录制动态动画整合 无需挂载不再卑微！
+Author: Simon
+Name: 灵动岛原生动画PLUS
+
+Package: com.simon.dynamicislandanimation
+Version: 2.0.0
+Architecture: iphoneos-arm64
+Maintainer: Simon
+Installed-Size: 432
+Depends: mobilesubstrate
+Filename: ./debs/com.simon.dynamicislandanimation_2.0.0_iphoneos-arm64.deb
+Size: 36356
+MD5sum: d3e2773db1c1cf4e9e9223b223dbeb7d
+SHA1: 3c0c6c0d8538bb42cf88cf0527f6cff0f7215029
+SHA256: e9ced3437f504a71be14b0e40a0a6ae9872ac08fcbb812cb2a2928dc177e7247
+Section: 系统美化
 Priority: 0
 Description: 用于灵动岛专辑及屏幕录制动态动画整合 无需挂载不再卑微！
 Author: Simon
