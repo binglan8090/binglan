@@ -906,6 +906,42 @@ Author: Hitori
 Icon: https://s1.imagehub.cc/images/2026/01/03/45c813cd5bca7231780f69d89d0f25e3.png
 Name: Centra
 
+Package: com.wkk.ersatz
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: Skitty
+Installed-Size: 408
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.wkk.ersatz_1.0_iphoneos-arm64e.deb
+Size: 32492
+MD5sum: e7e93d30c83f989513d69ee1196b4f76
+SHA1: 7687060713c57612f9ad7523c14f646e5f3a5cde
+SHA256: fe30895a108553db33befca1afafe28a0c40c392c44e8a94bea0a97a81357780
+Section: 调整
+Priority: 0
+Description: 替换系统范围内的任何文本。
+Author: Skitty
+Icon: https://sini921.github.io/repo/sileodepiction/icon/ersatz.png
+Name: Ersatz
+
+Package: com.wkk.ersatz
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: Skitty
+Installed-Size: 424
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.wkk.ersatz_1.0_iphoneos-arm64.deb
+Size: 34072
+MD5sum: 0b8027f31c4c6f00c03ccf73c17c6dda
+SHA1: 9a75d41f843ba1f11506d980497b5b2b1c7de429
+SHA256: 4d0f957982ba305ca73f01d433ab96ab9f00cbcc34db9eedc0fb585aafa9ba27
+Section: 调整
+Priority: 0
+Description: 替换系统范围内的任何文本。
+Author: Skitty
+Icon: https://sini921.github.io/repo/sileodepiction/icon/ersatz.png
+Name: Ersatz
+
 Package: com.wkk.flexloader
 Version: 5.25.19-1
 Architecture: iphoneos-arm64
