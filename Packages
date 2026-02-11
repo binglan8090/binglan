@@ -158,23 +158,6 @@ Description: 分屏，不必太复杂，一切从简即可。
 Author: be-huge
 Name: floatingView
 
-Package: com.binglan.8090
-Version: 0.0.1
-Architecture: iphoneos-arm64
-Maintainer: 冰蓝
-Depends: firmware (>= 16.0)
-Filename: ./debs/com.binglan.8090_0.0.1_iphoneos-arm64.deb
-Size: 1028
-MD5sum: f5bf57ff181ff760b0e44d42ed57aece
-SHA1: 7b87949c91d2a914bb5c3ea7d3001da5980c6c31
-SHA256: 1de7293ff190efcd88108fe123d22a22616f23e9b68fdf9b5fa5d3477caea662
-Section: Tweaks
-Description: 恭喜你来到彩蛋界面！愿你的每一天都充满阳光，每一刻都洋溢幸福，每一分都满载希望，每一秒都充满微笑。祝福你，生活美满，快乐无限！
-Author: 冰蓝
-Icon: https://i.imgs.ovh/2026/01/27/yeqvDb.jpeg
-Name: 哈喽！
-Sileodepiction: https://binglan8090.github.io/binglan/sileo-depiction/com.binglan.8090.json
-
 Package: com.deb.1314
 Version: 0.0.1
 Architecture: iphoneos-arm64
