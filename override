@@ -31,7 +31,6 @@ com.wkk.tweaktool 0 配置
 com.simon.ccglow 0 系统美化
 com.simon.ccweathermodule 0 系统美化
 com.huami.WCPulse optional 微信插件
-com.huami.wcpulse optional 微信插件
 com.tencent.themebox optional 微信插件
  0 系统美化
 com.21.d 0 系统美化
@@ -91,3 +90,4 @@ com.wkk.ersatz 0 调整
 com.wkk.horizontalsliders 0 系统美化
 com.wkk.akara 0 插件
 com.hidenotificationbadge 0 系统美化
+com.huami.wcpulse 0 微信插件
