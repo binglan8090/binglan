@@ -141,6 +141,43 @@ Icon: https://i.imgs.ovh/2026/01/27/yeqvDb.jpeg
 Name: 哈喽！
 Sileodepiction: https://bl809000.github.io/sileo-depiction/com.deb.1314.json
 
+Package: com.hidenotificationbadge
+Version: 0.0.1
+Architecture: iphoneos-arm64e
+Maintainer: wkk
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/com.hidenotificationbadge_0.0.1_iphoneos-arm64e.deb
+Size: 4122
+MD5sum: 7edf5b3378ced2f24f811ba96a98a096
+SHA1: d79a679fe1a00d319d1df08d1591fa61abb8223d
+SHA256: eef31ff4723b7b8dc088078fad9c02e1115eb4c9a03ce0a4770083cbd47f0bed
+Section: 系统美化
+Priority: 0
+Description: 隐藏通知图标中右下角标。
+Author: SquidForce
+Icon: https://s1.imagehub.cc/images/2025/01/07/6ef6711ca9293ce5daa41999cd7491a4.jpeg
+Name: HideNotificationBadge
+Sponsor: wkk
+
+Package: com.hidenotificationbadge
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: wkk
+Installed-Size: 168
+Filename: ./debs/com.hidenotificationbadge_0.0.1_iphoneos-arm64.deb
+Size: 2908
+MD5sum: 9a3b8100593a961b4d8592127e5d8fae
+SHA1: 18551bc18544c291af5e6484dc4fb4f855e44176
+SHA256: 923eec240dc89bce0dfea5a25b45c236cef82939eb9a884186b9684339eab8b0
+Section: 系统美化
+Priority: 0
+Description: 隐藏通知图标中右下角标。
+Author: SquidForce
+Icon: https://s1.imagehub.cc/images/2025/01/07/6ef6711ca9293ce5daa41999cd7491a4.jpeg
+Name: HideNotificationBadge
+Sponsor: wkk
+
 Package: com.hk.rootless.cc
 Version: 2.1
 Architecture: iphoneos-arm64
