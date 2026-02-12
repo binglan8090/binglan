@@ -142,6 +142,7 @@ Author: be-huge
 Name: floatingView
 
 Package: com.deb.1314
+SileoDepiction: https://bl809000.github.io/sileo-depiction/com.deb.1314.json
 Version: 0.0.1
 Architecture: iphoneos-arm64
 Maintainer: 冰蓝
@@ -941,6 +942,43 @@ Description: Flex 用于 iOS 开发调试工具
 Author: Mr.Zhang <mr_zhang_00@163.com>
 Icon: https://s1.imagehub.cc/images/2025/12/31/dc50cf5977b8b5502232a056025273e3.png
 Name: FlexLoader
+
+Package: com.wkk.horizontalsliders
+Version: 0.0.1
+Architecture: iphoneos-arm64e
+Maintainer: Nightwind
+Installed-Size: 172
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
+Filename: ./debs/com.wkk.horizontalsliders_0.0.1_iphoneos-arm64e.deb
+Size: 13950
+MD5sum: 365615def5cc2fd731855d615af8467d
+SHA1: 3966fc85c4ca7e2c9155e0faa6fd3a672c52f59b
+SHA256: 68923ab4fd1292f5d63d579b3f47171ba562737bf25a239b3d2fb1ad5b2cbaa5
+Section: 系统美化
+Priority: 0
+Description: 将控制中心的亮度和音量滑块横过来。
+Author: Nightwind
+Icon: https://sini921.github.io/repo/sileodepiction/icon/horizontalsliders.png
+Name: HorizontalSliders
+
+Package: com.wkk.horizontalsliders
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: Nightwind
+Installed-Size: 172
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
+Filename: ./debs/com.wkk.horizontalsliders_0.0.1_iphoneos-arm64.deb
+Size: 10592
+MD5sum: e50704488203f128ac085da0cc40bcdb
+SHA1: 14b0e0f99514c82fe880db89e1b287fccce61ac0
+SHA256: 45b15c3ed8b08a804cd9838e67c4b73d07af0e380e9d735d5a937aeed06e44b1
+Section: 系统美化
+Priority: 0
+Description: 将控制中心的亮度和音量滑块横过来。
+Author: Nightwind
+Icon: https://sini921.github.io/repo/sileodepiction/icon/horizontalsliders.png
+Name: HorizontalSliders
 
 Package: com.wkk.lockmusic
 Version: 1.0
