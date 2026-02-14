@@ -1,195 +1,141 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <!-- 去掉顶部/底部亮蓝：把 theme-color 改成页面深色底 -->
-  <meta name="theme-color" content="#0b1220" />
-  <title>BingLan-Repo</title>
-  <style>
-    :root{
-      --bg:#0b1220;
-      --card:#0f1a2e;
-      --text:#e6edf7;
-      --muted:#9fb0cc;
-      --accent:#22c1ff;
-      --line:rgba(255,255,255,.08);
-    }
-    *{box-sizing:border-box}
-    body{
-      margin:0;
-      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
-      /* 去掉页面顶部/底部亮蓝底光：删除蓝色径向渐变，仅保留暗色背景(和你原来的绿色淡光) */
-      background:
-                  radial-gradient(900px 600px at 80% 20%, rgba(34,197,94,.14), transparent 60%),
-                  var(--bg);
-      color:var(--text);
-      min-height:100vh;
-      display:flex;
-      align-items:center;
-      justify-content:center;
-      padding:22px;
-    }
-    .wrap{ width:min(920px,100%); }
-    .card{
-      background: linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.03));
-      border:1px solid var(--line);
-      border-radius:18px;
-      overflow:hidden;
-      box-shadow: 0 20px 70px rgba(0,0,0,.35);
-      backdrop-filter: blur(10px);
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>BingLan Repo</title>
+    <style>
+        :root {
+            --bg-color: #f5f5f7;
+            --card-bg: rgba(255, 255, 255, 0.8);
+            --text-main: #1d1d1f;
+            --text-sub: #86868b;
+            --shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            --sileo-color: #2cb1be;
+        }
 
-    /* 顶部区域：头像 + 标题 + 副标题（全部居中） */
-    .head{
-      padding:22px 18px 16px 18px;
-      display:flex;
-      flex-direction:column;
-      align-items:center;
-      gap:10px;
-      border-bottom:1px solid var(--line);
-      text-align:center;
-    }
-    .icon{
-      width:86px;
-      height:86px;
-      border-radius:22px;
-      background:rgba(255,255,255,.06);
-      border:1px solid var(--line);
-      overflow:hidden;
-      flex:0 0 auto;
-      box-shadow: 0 10px 30px rgba(0,0,0,.25);
-    }
-    .icon img{
-      width:100%;
-      height:100%;
-      object-fit:cover;
-      display:block
-    }
-    .title h1{
-      font-size:20px;
-      margin:0;
-      line-height:1.15;
-      letter-spacing:.3px;
-    }
-    .title p{
-      margin:0;
-      color:var(--muted);
-      font-size:13px;
-      line-height:1.35;
-    }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg-color: #000000;
+                --card-bg: rgba(28, 28, 30, 0.8);
+                --text-main: #f5f5f7;
+                --text-sub: #86868b;
+                --shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+                --sileo-color: #4cd9e6;
+            }
+        }
 
-    .body{
-      padding:18px 18px 18px 18px;
-      display:grid;
-      grid-template-columns: 1fr;
-      gap:14px;
-    }
+        * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+            transition: background 0.3s;
+        }
 
-    /* 按钮居中 */
-    .btns{
-      display:flex;
-      justify-content:center;
-      align-items:center;
-    }
-    .btn{
-      display:inline-flex;
-      align-items:center;
-      justify-content:center;
-      gap:8px;
-      padding:12px 18px;
-      border-radius:12px;
-      text-decoration:none;
-      color:var(--text);
-      border:1px solid var(--line);
-      background: rgba(255,255,255,.05);
-      transition:.15s transform ease, .15s background ease, .15s border ease;
-      font-weight:600;
-      font-size:14px;
-      min-width: 240px;
-    }
-    .btn:hover{
-      transform:translateY(-1px);
-      background:rgba(255,255,255,.08);
-      border-color:rgba(255,255,255,.14)
-    }
-    .btn.primary{
-      background: linear-gradient(135deg, rgba(34,193,255,.30), rgba(34,193,255,.12));
-      border-color: rgba(34,193,255,.35);
-    }
+        .container {
+            width: 100%;
+            max-width: 360px; /*稍微调窄一点，更精致*/
+            background: var(--card-bg);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-radius: 24px;
+            padding: 40px 30px;
+            text-align: center;
+            box-shadow: var(--shadow);
+            border: 1px solid rgba(128, 128, 128, 0.1);
+        }
 
-    code{
-      background: rgba(0,0,0,.35);
-      border:1px solid var(--line);
-      padding:2px 6px;
-      border-radius:8px;
-      font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;
-      font-size: 12px;
-      color: #dbeafe;
-      word-break: break-all;
-    }
-    .info{
-      border:1px solid var(--line);
-      background: rgba(0,0,0,.20);
-      border-radius:14px;
-      padding:14px;
-      color:var(--muted);
-      font-size:13px;
-      line-height:1.55;
-    }
-    .small{
-      font-size:12px;
-      color:rgba(159,176,204,.85);
-    }
-    .footer{
-      padding:12px 18px 16px 18px;
-      color:rgba(159,176,204,.65);
-      font-size:12px;
-      text-align:center;
-    }
-  </style>
+        .avatar {
+            width: 96px;
+            height: 96px;
+            border-radius: 22px;
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        }
+        
+        .avatar img {
+            width: 100%;
+            height: 100%;
+            border-radius: 22px;
+            object-fit: cover;
+        }
+
+        h1 { font-size: 24px; font-weight: 700; margin-bottom: 8px; letter-spacing: -0.5px; }
+        
+        .description {
+            color: var(--text-sub);
+            font-size: 15px;
+            line-height: 1.5;
+            margin-bottom: 30px;
+        }
+
+        .btn-group { display: flex; flex-direction: column; gap: 12px; }
+
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 50px;
+            border-radius: 14px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 16px;
+            transition: transform 0.2s, opacity 0.2s;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn:active { transform: scale(0.96); }
+
+        .btn-sileo {
+            background-color: var(--sileo-color);
+            color: #fff;
+            box-shadow: 0 4px 15px rgba(44, 177, 190, 0.3);
+        }
+
+        .footer {
+            margin-top: 40px;
+            font-size: 12px;
+            color: var(--text-sub);
+            opacity: 0.6;
+        }
+        
+        .icon-plus { margin-right: 8px; font-size: 18px; }
+
+    </style>
 </head>
-
 <body>
-  <div class="wrap">
-    <div class="card">
 
-      <!-- 头像 + 标题 + 副标题 -->
-      <div class="head">
-        <div class="icon">
-          <img src="CydiaIcon.png" alt="icon">
-        </div>
-        <div class="title">
-          <h1>BingLan-Repo</h1>
-          <p>成长就是无数次直视人性，然后坦然接受。</p>
-        </div>
-      </div>
-
-      <div class="body">
-
-        <div class="btns">
-          <a class="btn primary" href="sileo://source/https://binglan8090.github.io/binglan/">
-            ➕ 一键添加到 Sileo
-          </a>
+    <div class="container">
+        <div class="avatar">
+            <img src="https://i.imgs.ovh/2026/01/31/yQFg56.jpeg" alt="Logo">
         </div>
 
-        <div class="info">
-          <div>源地址：</div>
-          <div style="margin-top:6px">
-            <code>https://binglan8090.github.io/binglan/</code>
-          </div>
-          <div style="margin-top:10px" class="small">
-            如果你是第一次使用：打开 Sileo → 软件源 → “+” → 粘贴上面地址 → 添加即可。
-          </div>
+        <h1>BingLan Repo</h1>
+        <p class="description">冰蓝个人软件源<br>此源仅作备份使用</p>
+
+        <div class="btn-group">
+            <a href="sileo://source/https://bl809000.github.io" class="btn btn-sileo">
+                <span class="icon-plus">+</span> 添加到 Sileo
+            </a>
         </div>
 
-      </div>
-
-      <div class="footer">
-        Powered by GitHub · BingLan Repo
-      </div>
-
+        <div class="footer">
+            &copy; 2026 BingLan. All Rights Reserved.
+        </div>
     </div>
-  </div>
+
 </body>
 </html>

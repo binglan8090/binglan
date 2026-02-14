@@ -524,7 +524,24 @@ Size: 35188
 MD5sum: a8c9636cab4230a6ae0379f66080c01c
 SHA1: 1ac22b392fb852df570e6bc4019e318697dd8a82
 SHA256: 8cbb914aacab8fbcc365186bd26a3404f8fc95e04c2dc8b5f039f339301b47da
-Section: 插件
+Section: 系统美化
+Priority: 0
+Description: 为控制中心的音乐模块添加动画
+Author: simon
+Name: 控制中心音乐模块动画
+
+Package: com.simon.ccmusic
+Version: 2.4
+Architecture: iphoneos-arm64
+Maintainer: simon
+Installed-Size: 564
+Depends: mobilesubstrate, firmware (>= 13.0)
+Filename: ./debs/com.simon.ccmusic_2.4_iphoneos-arm64.deb
+Size: 75316
+MD5sum: 6fc90596ee54d48f924709e4bd0a3ddb
+SHA1: 61e88951c1ad7461be7e8656ab8170f0c49fa324
+SHA256: f6d755539047566c04866948cf70dfef6ca3e223e8d7a5addef3bcbeee2030c7
+Section: 系统美化
 Priority: 0
 Description: 为控制中心的音乐模块添加动画
 Author: simon
