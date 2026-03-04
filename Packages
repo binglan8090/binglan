@@ -492,7 +492,7 @@ Size: 548920
 MD5sum: ae9f69b1dc5fb27e85d6201ab14e88d4
 SHA1: 48f79375a34ddc5aee2a4bc9e539df9e4394f207
 SHA256: ee7d7307555a9304b8d3c938011f69445e7b4471741ab078bf6deffabecea08c
-Section: 插件
+Section: 系统美化
 Priority: 0
 Description: 全局系统颜色自定义
 Author: MrShi
