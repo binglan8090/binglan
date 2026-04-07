@@ -646,6 +646,40 @@ Description: 控制中心的天气模块。 显示当前天气、温度和每小
 Author: simon
 Name: CCWeather Module
 
+Package: com.simon.controlcenterlayout
+Version: 2.1
+Architecture: iphoneos-arm64e
+Maintainer: Simon
+Installed-Size: 620
+Depends: mobilesubstrate
+Filename: ./debs/com.simon.controlcenterlayout_2.1_iphoneos-arm64e.deb
+Size: 90384
+MD5sum: b9ba5aacd18114dfdee61e89f4c41904
+SHA1: dae6bdd5dd9dbb2e4e08addc759dc417d132f3a7
+SHA256: 0ef4618f6236b66e46ed374d8bdf85ea827efbd539a63c28954b50c9a2d87f4d
+Section: 系统美化
+Priority: 0
+Description: 用于部分自用控制中心模块2x1布局以及素材替换，半越狱不再卑微。
+Author: Simon
+Name: 控制中心模块
+
+Package: com.simon.controlcenterlayout
+Version: 2.1
+Architecture: iphoneos-arm64
+Maintainer: Simon
+Installed-Size: 620
+Depends: mobilesubstrate
+Filename: ./debs/com.simon.controlcenterlayout_2.1_iphoneos-arm64.deb
+Size: 90492
+MD5sum: 4c5f78f0a61036f6d679f64f45184325
+SHA1: 532d36f6ef62cc61da4c34fd9a282f7a49a3038e
+SHA256: 22e4510063bf62db09c41587442c316701d95d35b191e97aa53db6c6dbedbdf7
+Section: 系统美化
+Priority: 0
+Description: 用于部分自用控制中心模块2x1布局以及素材替换，半越狱不再卑微。
+Author: Simon
+Name: 控制中心模块
+
 Package: com.simon.dynamicislandanimation
 Version: 1.1.7
 Architecture: iphoneos-arm64
